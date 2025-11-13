@@ -1,0 +1,199 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/lordlethabo/python-learning-journey/blob/main/Day1_Python_Fundamentals.ipynb.\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "MQRNSzT3ndPp",
+        "outputId": "413a20ba-53c9-47a3-aa9d-9c2afa478ca2"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "Hello,Python\n"
+          ]
+        }
+      ],
+      "source": [
+        "print(\"Hello,Python\")"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "cx93woz3nzPD",
+        "outputId": "ac6adcb0-3bfd-4d15-9ac5-301d9f934816"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "Lethabo 20 1.75 True\n"
+          ]
+        }
+      ],
+      "source": [
+        "name = \"Lethabo\"\n",
+        "age = 20\n",
+        "height = 1.75\n",
+        "is_farmer = True\n",
+        "print(name, age, height, is_farmer)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "_F4FxFwaoSSR",
+        "outputId": "bf874f0c-6593-4651-d3c3-ff967e7a81c2"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "<class 'str'>\n",
+            "<class 'int'>\n"
+          ]
+        }
+      ],
+      "source": [
+        "print(type(name))\n",
+        "print(type(age))"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "o0ixYr_wouUF",
+        "outputId": "d87dadbc-6e6b-4959-e399-f7034cf7986d"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "corn 3 True\n"
+          ]
+        }
+      ],
+      "source": [
+        "#mini exercise\n",
+        "farvourite_crop = \"corn\"\n",
+        "number_of_farms = 3\n",
+        "likes_AI = True\n",
+        "print(farvourite_crop, number_of_farms, likes_AI)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Fx_AyhKlrYR5",
+        "outputId": "cd773639-14e1-4e13-fd4c-7d5ef419bdc7"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "Maize\n"
+          ]
+        }
+      ],
+      "source": [
+        "crops = [\"Maize\", \"Wheat\", \"Rice\"]\n",
+        "crops.append(\"barley\")\n",
+        "print(crops[0])"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "ipG18vhPJcUB"
+      },
+      "outputs": [],
+      "source": []
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "kzHZQqHLJc9g"
+      },
+      "outputs": [],
+      "source": []
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "background_save": true
+        },
+        "id": "pMFkbkQEJSyg",
+        "outputId": "ca1b05cd-7953-4c47-ecee-4704153ee6df"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "Welcome, name\n"
+          ]
+        }
+      ],
+      "source": [
+        "name =input(\"Enter your name: \")\n",
+        "print(\"Welcome, name\")"
+      ]
+    }
+  ],
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMs6pJKU3lmt7mVHblxdWVS",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "display_name": "Python 3",
+      "name": "python3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 0
+}
